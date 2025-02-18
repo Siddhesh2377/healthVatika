@@ -18,4 +18,4 @@ async def chat_endpoint(chat_message: ChatMessage):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("chatbot_api:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("Main:app", host="127.20.1.0", port=8000, reload=True)
